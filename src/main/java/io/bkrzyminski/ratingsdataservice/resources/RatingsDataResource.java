@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Main resource for movie catalog service
+ *
+ * @author bkrzyminski
+ */
 @RestController
 @RequestMapping("/ratingsdata")
 public class RatingsDataResource {

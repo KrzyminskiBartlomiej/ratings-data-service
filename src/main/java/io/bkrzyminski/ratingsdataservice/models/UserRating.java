@@ -1,18 +1,17 @@
 package io.bkrzyminski.ratingsdataservice.models;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
+/**
+ * Model class
+ *
+ * @author bkrzyminski
+ */
+@Data
+@NoArgsConstructor
 public class UserRating {
-
-    public UserRating() {}
-
-    public List<Rating> getRatings() {
-        return ratings;
-    }
-
-    public void setRatings(List<Rating> ratings) {
-        this.ratings = ratings;
-    }
-
     private List<Rating> ratings;
 }
